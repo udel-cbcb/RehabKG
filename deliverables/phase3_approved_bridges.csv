@@ -1,0 +1,3 @@
+source_ontology,source_label,source_iri,target_ontology,target_code,target_label,relation,method,match_type,confidence,source,review_status
+FRMO,Running,http://www.semanticweb.org/ftuha/ontologies/2021/5/FRMO-01untitled-ontology-175/Running,ICF,d4552,Running,MAPS_TO_ICF,rule_based,exact_label,0.8,phase3_pair_review_2026-10-23,unreviewed
+STO,Tremor,http://www.semanticweb.org/ontologies/STO.owl#OWLClass_79a8c9d1_8c42_40e9_a337_57eb6d0ee3f9,ICF,b7651,Tremor,MAPS_TO_ICF,rule_based,exact_label,0.8,phase3_pair_review_2026-10-23,unreviewed

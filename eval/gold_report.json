@@ -1,0 +1,286 @@
+{
+  "total": 40,
+  "failed": 0,
+  "results": [
+    {
+      "id": "core-condition-count",
+      "category": "core",
+      "question": "How many Condition nodes are in the graph?",
+      "ok": true,
+      "detail": "1320 (>= 1000)"
+    },
+    {
+      "id": "core-exercise-count",
+      "category": "core",
+      "question": "How many Exercise nodes are in the graph?",
+      "ok": true,
+      "detail": "949 (>= 500)"
+    },
+    {
+      "id": "core-stroke-conditions-exist",
+      "category": "core",
+      "question": "Are there at least 15 stroke-related conditions?",
+      "ok": true,
+      "detail": "42 (>= 15)"
+    },
+    {
+      "id": "core-walking-program-exists",
+      "category": "core",
+      "question": "Does the Walking Program (Progressive) exercise exist?",
+      "ok": true,
+      "detail": "1 (>= 1)"
+    },
+    {
+      "id": "core-stroke-recommendations",
+      "category": "core",
+      "question": "How many RECOMMENDS_EXERCISE edges originate from stroke conditions?",
+      "ok": true,
+      "detail": "51 (>= 10)"
+    },
+    {
+      "id": "core-recommends-total",
+      "category": "core",
+      "question": "How many curated RECOMMENDS_EXERCISE edges exist in total?",
+      "ok": true,
+      "detail": "267 (>= 200)"
+    },
+    {
+      "id": "core-recommends-provenance-complete",
+      "category": "provenance",
+      "question": "Do all RECOMMENDS_EXERCISE edges carry source and review_status?",
+      "ok": true,
+      "detail": "267/267 = 100.00% (min 100%)"
+    },
+    {
+      "id": "core-recommends-method-curated",
+      "category": "provenance",
+      "question": "Are all curated RECOMMENDS_EXERCISE edges stamped method=curated?",
+      "ok": true,
+      "detail": "0 (<= 0)"
+    },
+    {
+      "id": "core-safety-precautions-stroke",
+      "category": "core",
+      "question": "How many PRECAUTION edges originate from stroke conditions?",
+      "ok": true,
+      "detail": "205 (>= 10)"
+    },
+    {
+      "id": "core-safety-total",
+      "category": "core",
+      "question": "How many safety edges (PRECAUTION + CONTRAINDICATION) exist?",
+      "ok": true,
+      "detail": "228 (>= 200)"
+    },
+    {
+      "id": "core-conditions-with-both-rec-and-precaution",
+      "category": "core",
+      "question": "How many conditions have both a recommendation and a precaution?",
+      "ok": true,
+      "detail": "53 (>= 10)"
+    },
+    {
+      "id": "core-icf-gait-codes-exist",
+      "category": "ontology",
+      "question": "Do core gait ICF codes (d450, b770) exist?",
+      "ok": true,
+      "detail": "5 (>= 5)"
+    },
+    {
+      "id": "core-icf-walking-labels",
+      "category": "ontology",
+      "question": "How many ICF concepts mention Walking or Gait?",
+      "ok": true,
+      "detail": "10 (>= 8)"
+    },
+    {
+      "id": "core-hpo-gait-terms-exist",
+      "category": "ontology",
+      "question": "How many HPO gait-related terms exist?",
+      "ok": true,
+      "detail": "5 (>= 5)"
+    },
+    {
+      "id": "core-stroke-trials-exist",
+      "category": "core",
+      "question": "How many clinical trials mention Stroke in the title?",
+      "ok": true,
+      "detail": "154 (>= 100)"
+    },
+    {
+      "id": "core-trials-study-conditions",
+      "category": "ontology",
+      "question": "How many STUDIES_CONDITION edges exist?",
+      "ok": true,
+      "detail": "2984 (>= 1000)"
+    },
+    {
+      "id": "core-outcomes-exist",
+      "category": "core",
+      "question": "How many Outcome nodes exist?",
+      "ok": true,
+      "detail": "4024 (>= 1500)"
+    },
+    {
+      "id": "core-barthel-admission-outcomes",
+      "category": "core",
+      "question": "How many Barthel admission outcomes exist?",
+      "ok": true,
+      "detail": "1006 (>= 100)"
+    },
+    {
+      "id": "core-motu-patients",
+      "category": "core",
+      "question": "How many MOTU patients exist?",
+      "ok": true,
+      "detail": "1006 (>= 900)"
+    },
+    {
+      "id": "core-synthetic-seed-labeled",
+      "category": "core",
+      "question": "Is the seed patient present and labeled synthetic?",
+      "ok": true,
+      "detail": "1 (>= 1)"
+    },
+    {
+      "id": "core-shortest-path-stroke-to-walking",
+      "category": "core",
+      "question": "Is there a path from the Stroke condition to Walking Program (Progressive)?",
+      "ok": true,
+      "detail": "1 (>= 1 and <= 3)"
+    },
+    {
+      "id": "core-shortest-path-stroke-to-single-leg",
+      "category": "core",
+      "question": "Is there a path from the Stroke condition to Single-Leg Balance (precaution)?",
+      "ok": true,
+      "detail": "1 (>= 1 and <= 3)"
+    },
+    {
+      "id": "provenance-hpo-icf-gait-links",
+      "category": "provenance",
+      "question": "Do HPO terms map to ICF concepts via curated explicit-code provenance?",
+      "ok": true,
+      "detail": "9 (>= 9)"
+    },
+    {
+      "id": "provenance-hpo-icf-confidence-bounded",
+      "category": "provenance",
+      "question": "Do all HPO\u2192ICF edges carry curated explicit-code provenance with a source and confidence 1.0?",
+      "ok": true,
+      "detail": "0 (<= 0)"
+    },
+    {
+      "id": "provenance-trial-icf-gait-links",
+      "category": "provenance",
+      "question": "Are broad trial\u2192ICF keyword matches absent from the focused graph?",
+      "ok": true,
+      "detail": "0 (<= 0)"
+    },
+    {
+      "id": "observation-seed-count",
+      "category": "observation",
+      "question": "How many Observation seed nodes exist?",
+      "ok": true,
+      "detail": "6 (>= 6)"
+    },
+    {
+      "id": "observation-measures",
+      "category": "observation",
+      "question": "Do seed observations cover gait speed, 6MWT, steps and Berg?",
+      "ok": true,
+      "detail": "4 (>= 4)"
+    },
+    {
+      "id": "observation-maps-to-icf",
+      "category": "observation",
+      "question": "Are Observation\u2192ICF links absent until explicitly restored and provenance-validated?",
+      "ok": true,
+      "detail": "0 (<= 0)"
+    },
+    {
+      "id": "outcome-value-numeric-backfill",
+      "category": "observation",
+      "question": "Are MOTU outcomes backfilled with numeric values (NA values excluded)?",
+      "ok": true,
+      "detail": "2395 (>= 1400)"
+    },
+    {
+      "id": "core-read-only-graph-intact",
+      "category": "core",
+      "question": "Do all major node types coexist in one connected import?",
+      "ok": true,
+      "detail": "92694 (>= 1)"
+    },
+    {
+      "id": "core-icd10-conditions-populated",
+      "category": "core",
+      "question": "How many Condition nodes carry an ICD-10 code under the Gate 0 policy (exact-name Mondo propagation + curated overrides)?",
+      "ok": true,
+      "detail": "65 (>= 60)"
+    },
+    {
+      "id": "core-icd10-recommendation-edges",
+      "category": "core",
+      "question": "How many RECOMMENDS_EXERCISE edges are bound via ICD-10 (match_type icd10_via_mondo or icd10_override)?",
+      "ok": true,
+      "detail": "50 (>= 40)"
+    },
+    {
+      "id": "provenance-icd10-bound-contract",
+      "category": "provenance",
+      "question": "Do all ICD-10-bound RECOMMENDS_EXERCISE edges carry the full provenance contract (method=curated, confidence=0.7, review_status=unreviewed, source present)?",
+      "ok": true,
+      "detail": "50/50 = 100.00% (min 100%)"
+    },
+    {
+      "id": "core-low-back-pain-recommendations",
+      "category": "core",
+      "question": "How many exercises are recommended for Low Back Pain (curated ICD-10 M54.5 rows + keyword rows)?",
+      "ok": true,
+      "detail": "6 (>= 5)"
+    },
+    {
+      "id": "core-stroke-sequelae-recommendations",
+      "category": "core",
+      "question": "How many stroke-sequelae conditions (icd10_code I69.3) have at least one exercise recommendation?",
+      "ok": true,
+      "detail": "2 (>= 2)"
+    },
+    {
+      "id": "usecase-safety-edges-on-stroke",
+      "category": "usecase",
+      "question": "Does at least one stroke-related condition carry a PRECAUTION or CONTRAINDICATION edge (UC1)?",
+      "ok": true,
+      "detail": "200 (>= 1)"
+    },
+    {
+      "id": "usecase-gait-hpo-terms-present",
+      "category": "usecase",
+      "question": "Are there HPO gait/walk terms for the concept resolver to start from (UC4)?",
+      "ok": true,
+      "detail": "41 (>= 10)"
+    },
+    {
+      "id": "usecase-scales-measure-icf",
+      "category": "usecase",
+      "question": "Do assessment scales have MEASURES links to ICF concepts (UC7)?",
+      "ok": true,
+      "detail": "17 (>= 1)"
+    },
+    {
+      "id": "usecase-observation-seed-present",
+      "category": "usecase",
+      "question": "Does the synthetic observation seed provide gait observations for UC10?",
+      "ok": true,
+      "detail": "6 (>= 6)"
+    },
+    {
+      "id": "usecase-gait-terms-map-to-b770",
+      "category": "usecase",
+      "question": "Do HPO Gait ataxia and Gait disturbance map to ICF b770 Gait pattern functions (UC4)?",
+      "ok": true,
+      "detail": "2 (>= 2)"
+    }
+  ]
+}

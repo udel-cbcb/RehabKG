@@ -1,0 +1,42 @@
+## Condition coverage
+  Conditions: 1,320
+  with ICD-10 link:     65 (4.9%)
+  with recommendations: 214
+  with precaution: 42
+  with contraindication:18
+
+## Outcome scale coverage
+  Outcomes: 2,012 (value_numeric backfill: 1,451)
+  admission: 1,006 / discharge: 1,006
+    Barthel Index: 2,012
+
+## Exercise coverage
+  Exercises: 949
+  recommended at least once: 34
+
+## MOTU cohort limits (synthetic demo data)
+  Patients: 1,006
+  Birth years: 1921–1999
+    sex=M: 874
+    sex=F: 132
+
+## Provenance coverage
+  RECOMMENDS with source/review_status: 267/267 of 267
+  Safety with source/review_status: 228/228 of 228
+
+## Observations
+  Observation nodes: 6
+
+## Known gaps
+  - Condition.icd10_code is populated only by exact-name Mondo
+    propagation and curated/condition_icd10_overrides.csv (Gate 0
+    policy); both are unreviewed candidates — see
+    docs/notes/phase0_findings.md and curated/README.md.
+  - MOTU data is synthetic/labeled demo data — not for clinical use.
+  - Unreviewed curated edges are research candidates, not advice.
+
+# Captured BEFORE the Phase 2 reimport (2026-10-22 21:50 local), from
+# `python3 scripts/audit_coverage.py` run against the pre-reimport graph.
+# NOTE: the pre-reimport run used the FIXED top_scales query (dc91288
+# code) against the OLD graph; before dc91288 the scale section returned
+# no usable rows (the F3 audit bug).

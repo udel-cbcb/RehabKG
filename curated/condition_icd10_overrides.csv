@@ -1,0 +1,11 @@
+condition_name,icd10_code,source,rationale,review_status,reviewed_by,reviewed_on
+Sequelae of Stroke,I69.3,ICD-10-CM code title,"I69.3 = sequelae of cerebral infarction; the condition name states the same clinical state. Unreviewed candidate — clinician review required.",unreviewed,,
+Stroke Sequelae,I69.3,ICD-10-CM code title,"Word-order variant of the same post-stroke sequelae state present among graph conditions. Unreviewed candidate — clinician review required.",unreviewed,,
+Knee Osteoarthritis,M17.9,ICD-10-CM code title,"M17.9 = primary osteoarthritis of knee, unspecified laterality; the condition name is site-specific to the knee. Unreviewed candidate — clinician review required.",unreviewed,,
+Osteoarthritis of Knee,M17.9,ICD-10-CM code title,"Canonical alternate name for the same site-specific knee OA state. Unreviewed candidate — clinician review required.",unreviewed,,
+Low Back Pain,M54.5,ICD-10-CM code title,"M54.5 code title is literally 'Low back pain'. Unreviewed candidate — clinician review required.",unreviewed,,
+Plantar Fasciitis,M72.2,ICD-10-CM code title,"M72.2 code title is 'Plantar fasciitis'. Unreviewed candidate — clinician review required.",unreviewed,,
+"Fasciitis, Plantar",M72.2,ICD-10-CM code title,"Trial-style inverted-name variant of the same plantar fasciitis state. Unreviewed candidate — clinician review required.",unreviewed,,
+"Gait, Unsteady",R26.81,ICD-10-CM code title,"R26.81 = unsteady gait, unspecified; the condition name matches the code title. Unreviewed candidate — clinician review required.",unreviewed,,
+Hip Replacement,Z96.641,ICD-10-CM code title,"Curated icd10 rows key Z96.641 (right hip prosthesis) but the condition name carries no laterality — reviewer should decide whether a side-agnostic code is more appropriate. Unreviewed candidate — clinician review required.",unreviewed,,
+Total Hip Replacement,Z96.641,ICD-10-CM code title,"Same laterality caveat as 'Hip Replacement': Z96.641 is right-hip specific. Unreviewed candidate — clinician review required.",unreviewed,,

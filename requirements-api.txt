@@ -1,0 +1,9 @@
+# Optional API dependencies (not required for the load pipeline or CI).
+# Install: pip install -r requirements-api.txt
+# Run:     uvicorn api.app:app --host 127.0.0.1 --port 8000
+#
+# Pinned to a combination verified on Python 3.9 (newer fastapi/pydantic
+# lines are fine on 3.10+; loosen these pins when the floor moves).
+fastapi==0.115.12
+pydantic==2.10.6
+uvicorn>=0.29,<1.0

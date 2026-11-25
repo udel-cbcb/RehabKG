@@ -1,0 +1,202 @@
+{
+  "snapshot": "2026-11-05",
+  "description": "Expected bulk-import parity contract derived from the focused refresh snapshot.",
+  "reference_uri": "bolt://localhost:7688",
+  "total_nodes": 153069,
+  "node_label_sources": [
+    {
+      "label": "Activity",
+      "source": "icf.owl",
+      "count": 393
+    },
+    {
+      "label": "AdverseEvent",
+      "source": "MOTU",
+      "count": 146
+    },
+    {
+      "label": "AssessmentScale",
+      "source": "RMD",
+      "count": 40
+    },
+    {
+      "label": "BodyFunction",
+      "source": "icf.owl",
+      "count": 445
+    },
+    {
+      "label": "BodyPart",
+      "source": "Free Exercise DB",
+      "count": 17
+    },
+    {
+      "label": "BodyStructure",
+      "source": "icf.owl",
+      "count": 222
+    },
+    {
+      "label": "ClinicalTrial",
+      "source": "ClinicalTrials.gov",
+      "count": 856
+    },
+    {
+      "label": "ClinicalTrial",
+      "source": "ClinicalTrials.gov (expanded)",
+      "count": 531
+    },
+    {
+      "label": "Condition",
+      "source": "ClinicalTrials.gov",
+      "count": 1320
+    },
+    {
+      "label": "EXMOConcept",
+      "source": "exmo.owl",
+      "count": 220
+    },
+    {
+      "label": "EnvironmentalFactor",
+      "source": "icf.owl",
+      "count": 258
+    },
+    {
+      "label": "Equipment",
+      "source": "Free Exercise DB",
+      "count": 12
+    },
+    {
+      "label": "Equipment",
+      "source": "MOTU",
+      "count": 1
+    },
+    {
+      "label": "Exercise",
+      "source": "Free Exercise DB",
+      "count": 873
+    },
+    {
+      "label": "Exercise",
+      "source": "Open Rehab Exercises",
+      "count": 76
+    },
+    {
+      "label": "HPOConcept",
+      "source": "Human Phenotype Ontology",
+      "count": 32772
+    },
+    {
+      "label": "ICD10Code",
+      "source": "CDC ICD-10-CM April 2025",
+      "count": 92694
+    },
+    {
+      "label": "ICFConcept",
+      "source": "icf.owl",
+      "count": 1509
+    },
+    {
+      "label": "MondoDisease",
+      "source": "mondo.owl",
+      "count": 5000
+    },
+    {
+      "label": "Muscle",
+      "source": "Free Exercise DB",
+      "count": 17
+    },
+    {
+      "label": "NodeType",
+      "source": null,
+      "count": 10
+    },
+    {
+      "label": "Observation",
+      "source": "synthetic_demo",
+      "count": 6
+    },
+    {
+      "label": "OntologyClass",
+      "source": "rehabo.owl",
+      "count": 251
+    },
+    {
+      "label": "OntologyIndividual",
+      "source": "rehabo.owl",
+      "count": 23
+    },
+    {
+      "label": "OntologyProperty",
+      "source": "rehabo.owl",
+      "count": 36
+    },
+    {
+      "label": "Outcome",
+      "source": "MOTU",
+      "count": 4024
+    },
+    {
+      "label": "PAINConcept",
+      "source": "pain.owl",
+      "count": 623
+    },
+    {
+      "label": "Patient",
+      "source": "MOTU",
+      "count": 1006
+    },
+    {
+      "label": "Patient",
+      "source": "synthetic_demo",
+      "count": 1
+    },
+    {
+      "label": "REHABOConcept",
+      "source": "rehabo.owl",
+      "count": 63
+    },
+    {
+      "label": "RelType",
+      "source": null,
+      "count": 16
+    },
+    {
+      "label": "Session",
+      "source": "MOTU",
+      "count": 1006
+    },
+    {
+      "label": "UberonConcept",
+      "source": "uberon.owl",
+      "count": 10000
+    }
+  ],
+  "relationship_counts": {
+    "MAPS_TO_UBERON": 14,
+    "TARGETS_ANATOMY": 776,
+    "HAS_ICD10": 13027,
+    "MAPS_TO_MONDO": 673,
+    "MAPS_TO_ICF": 17,
+    "MEASURES": 17,
+    "CLOSE_MATCH": 5,
+    "RELATED_TO_ICF": 9,
+    "STUDIES_CONDITION": 2984,
+    "RECOMMENDS_EXERCISE": 267,
+    "PRECAUTION": 210,
+    "CONTRAINDICATION": 18,
+    "TARGETS_PRIMARY": 873,
+    "TARGETS_SECONDARY": 1710,
+    "REQUIRES": 796,
+    "PROGRESSES_TO": 7,
+    "HAS_STAY": 1006,
+    "HAS_OUTCOME": 4024,
+    "MEASURED_BY": 4024,
+    "HAS_OBSERVATION": 6,
+    "INSTANCE_OF": 22,
+    "HAS_DOMAIN": 15,
+    "HAS_RANGE": 14
+  },
+  "gold": {
+    "total": 40,
+    "failed": 0
+  }
+}

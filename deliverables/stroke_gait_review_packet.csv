@@ -1,0 +1,6 @@
+file,match_type,rel_type,condition_key,exercise_name,current_status,decision,reviewed_by,reviewed_on,citation,comment
+condition_exercise.csv,keyword_group,,stroke;hemiplegia;hemiparesis;neurological,Walking Program (Progressive),unreviewed,,,,
+safety_contraindications.csv,keyword_group,PRECAUTION,stroke;hemiplegia;hemiparesis,Single-Leg Balance,unreviewed,,,,
+safety_contraindications.csv,keyword_group,PRECAUTION,stroke;hemiplegia;hemiparesis,"Walking, Treadmill",unreviewed,,,,
+safety_contraindications.csv,keyword_group,PRECAUTION,stroke;hemiplegia;hemiparesis,Narrow Stance Squats,unreviewed,,,,
+safety_contraindications.csv,keyword_group,PRECAUTION,stroke;hemiplegia;hemiparesis,Balance Board,unreviewed,,,,

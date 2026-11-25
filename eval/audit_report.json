@@ -1,0 +1,53 @@
+{
+  "conditions": {
+    "total": 1320,
+    "with_icd10": 0,
+    "with_recommendations": 209,
+    "with_precaution": 42,
+    "with_contraindication": 18
+  },
+  "outcomes": {
+    "total": 2012,
+    "with_value_numeric": 1451,
+    "top_scales": [
+      {
+        "scale": null,
+        "n": 2012
+      }
+    ],
+    "admission": 1006,
+    "discharge": 1006
+  },
+  "exercises": {
+    "total": 949,
+    "recommended_at_least_once": 8
+  },
+  "cohort": {
+    "patients": 1006,
+    "min_birth_year": 1921,
+    "max_birth_year": 1999,
+    "by_sex": [
+      {
+        "sex": "M",
+        "n": 874
+      },
+      {
+        "sex": "F",
+        "n": 132
+      }
+    ]
+  },
+  "provenance": {
+    "recommends": 217,
+    "recommends_with_source": 217,
+    "recommends_with_review_status": 217,
+    "safety": {
+      "safety_edges": 228,
+      "safety_with_source": 228,
+      "safety_with_review_status": 228
+    }
+  },
+  "observations": {
+    "total": 6
+  }
+}

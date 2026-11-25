@@ -1,0 +1,37 @@
+## Condition coverage
+  Conditions: 1,320
+  with ICD-10 link:     65 (4.9%)
+  with recommendations: 214
+  with precaution:      42
+  with contraindication:18
+
+## Outcome scale coverage
+  Outcomes: 4,024 (value_numeric backfill: 2,395)
+  admission: 2,012 / discharge: 2,012
+    10 Meter Walk Test: 2,012
+    Barthel Index: 2,012
+
+## Exercise coverage
+  Exercises: 949
+  recommended at least once: 34
+
+## MOTU cohort limits (synthetic demo data)
+  Patients: 1,006
+  Birth years: 1921–1999
+    sex=M: 874
+    sex=F: 132
+
+## Provenance coverage
+  RECOMMENDS with source/review_status: 267/267 of 267
+  Safety with source/review_status: 228/228 of 228
+
+## Observations
+  Observation nodes: 6
+
+## Known gaps
+  - Condition.icd10_code is populated only by exact-name Mondo
+    propagation and curated/condition_icd10_overrides.csv (Gate 0
+    policy); both are unreviewed candidates — see
+    docs/notes/phase0_findings.md and curated/README.md.
+  - MOTU data is synthetic/labeled demo data — not for clinical use.
+  - Unreviewed curated edges are research candidates, not advice.

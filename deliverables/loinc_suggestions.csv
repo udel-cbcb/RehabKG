@@ -1,0 +1,129 @@
+scale_id,scale_name,candidate_rank,match_reason,loinc_num,long_common_name,shortname,class,status,review_status
+ASM-002,Timed Up and Go,1,acronym:TUG,89422-0,Timed Up and Go test and physical findings of gait panel CDC,TUG + Phys findings of gait Pnl CDC,PANEL.H&P,ACTIVE,suggestion_unreviewed
+ASM-002,Timed Up and Go,2,acronym:TUG,89423-8,"Time to rise from chair, walk 10 feet and back, and return to sitting [TUG]","Time rise, walk 10ft, return sit [TUG]",H&P.PX,ACTIVE,suggestion_unreviewed
+ASM-002,Timed Up and Go,3,overlap:definition(2/2),66217-1,"Time to rise from chair, walk 8 feet and back, and return to sitting 8UG","Time rise, walk 8ft, return sitting 8UG",H&P.PX,ACTIVE,suggestion_unreviewed
+ASM-003,Functional Gait Assessment,1,overlap:definition(2/2),104046-8,Number of steps to walk 10-meters,Num steps to walk 10m,CLIN,ACTIVE,suggestion_unreviewed
+ASM-003,Functional Gait Assessment,2,overlap:definition(2/2),89422-0,Timed Up and Go test and physical findings of gait panel CDC,TUG + Phys findings of gait Pnl CDC,PANEL.H&P,ACTIVE,suggestion_unreviewed
+ASM-004,Tinetti Performance Oriented Mobility,1,overlap:definition(2/4),104046-8,Number of steps to walk 10-meters,Num steps to walk 10m,CLIN,ACTIVE,suggestion_unreviewed
+ASM-004,Tinetti Performance Oriented Mobility,2,overlap:definition(2/4),83219-6,Putting on/taking off footwear - functional goal during 3 day assessment period [CMS Assessment],,SURVEY.CMS,ACTIVE,suggestion_unreviewed
+ASM-004,Tinetti Performance Oriented Mobility,3,overlap:definition(2/4),89422-0,Timed Up and Go test and physical findings of gait panel CDC,TUG + Phys findings of gait Pnl CDC,PANEL.H&P,ACTIVE,suggestion_unreviewed
+ASM-010,Fugl-Meyer Assessment Upper Extremity,1,contains_rev:system,107442-6,XR Upper extremity Views 3D post processing,XR UE XR 3D,RAD,ACTIVE,suggestion_unreviewed
+ASM-010,Fugl-Meyer Assessment Upper Extremity,2,contains_rev:system,24688-4,MR Upper extremity,MR UE,RAD,ACTIVE,suggestion_unreviewed
+ASM-010,Fugl-Meyer Assessment Upper Extremity,3,contains_rev:system,24689-2,XR Upper extremity Views,XR UE Views,RAD,ACTIVE,suggestion_unreviewed
+ASM-010,Fugl-Meyer Assessment Upper Extremity,4,contains_rev:system,30626-6,CT Upper extremity W contrast IV,CT UE W contr IV,RAD,ACTIVE,suggestion_unreviewed
+ASM-010,Fugl-Meyer Assessment Upper Extremity,5,contains_rev:system,30627-4,CT Upper extremity WO contrast,CT UE WO contr,RAD,ACTIVE,suggestion_unreviewed
+ASM-011,Action Research Arm Test,1,overlap:relatednames2(2/3),74569-5,Action that prevented the near miss incident from reaching the patient [AHRQ],,SURVEY.AHRQ,ACTIVE,suggestion_unreviewed
+ASM-011,Action Research Arm Test,2,overlap:definition(2/3),62759-6,PhenX - clinical neuropathy protocol 130201,Clinical neuropathy proto,PANEL.PHENX,ACTIVE,suggestion_unreviewed
+ASM-011,Action Research Arm Test,3,overlap:definition(2/3),78805-9,Barium [Moles/mass] in Tissue,Barium Tiss-sCnt,DRUG/TOX,ACTIVE,suggestion_unreviewed
+ASM-011,Action Research Arm Test,4,overlap:definition(2/3)+not_active,62736-4,PhenX - schizophrenia protocol 120701,Schizophrenia proto,PANEL.PHENX,DISCOURAGED,suggestion_unreviewed
+ASM-012,Box and Block Test,1,overlap:definition(2/2),21852-9,Census tract certainty 1970and80and90,Census tract certainty 1970/80/90,TUMRRGT,ACTIVE,suggestion_unreviewed
+ASM-013,Nine Hole Peg Test,1,overlap:long_common_name(2/3),83141-2,9-Hole Pegboard Dexterity Test [NIH Toolbox],Pegboard NIH,PANEL.NIH.MOTOR,ACTIVE,suggestion_unreviewed
+ASM-013,Nine Hole Peg Test,2,overlap:long_common_name(2/3),83156-0,9-Hole Pegboard Dexterity Test Time Hand - left [NIH Toolbox],Pegboard Time Hand-L NIH,NIH.MOTOR,ACTIVE,suggestion_unreviewed
+ASM-013,Nine Hole Peg Test,3,overlap:long_common_name(2/3),83157-8,9-Hole Pegboard Dexterity Test Time Hand - right [NIH Toolbox],Pegboard Time Hand-R NIH,NIH.MOTOR,ACTIVE,suggestion_unreviewed
+ASM-013,Nine Hole Peg Test,4,overlap:long_common_name(2/3),83158-6,9-Hole Pegboard Dexterity - scale score fully adjusted Hand.dominant [NIH Toolbox],Pegboard full adj Hand.dom NIH,NIH.MOTOR,ACTIVE,suggestion_unreviewed
+ASM-013,Nine Hole Peg Test,5,overlap:long_common_name(2/3),83159-4,9-Hole Pegboard Dexterity - scale score fully adjusted Hand.non-dominant [NIH Toolbox],Pegboard full adj Hand.non-dom NIH,NIH.MOTOR,ACTIVE,suggestion_unreviewed
+ASM-020,Fugl-Meyer Assessment Lower Extremity,1,contains_rev:system,24686-8,XR Lower extremity Views,XR LE Views,RAD,ACTIVE,suggestion_unreviewed
+ASM-020,Fugl-Meyer Assessment Lower Extremity,2,contains_rev:system,30624-1,CT Lower extremity W contrast IV,CT LE W contr IV,RAD,ACTIVE,suggestion_unreviewed
+ASM-020,Fugl-Meyer Assessment Lower Extremity,3,contains_rev:system,30625-8,CT Lower extremity WO contrast,CT LE WO contr,RAD,ACTIVE,suggestion_unreviewed
+ASM-020,Fugl-Meyer Assessment Lower Extremity,4,contains_rev:system,30692-8,MR Lower extremity,MR LE,RAD,ACTIVE,suggestion_unreviewed
+ASM-020,Fugl-Meyer Assessment Lower Extremity,5,contains_rev:system,30709-0,US Lower extremity,US LE,RAD,ACTIVE,suggestion_unreviewed
+ASM-021,Timed 10 Meter Walk Test,1,overlap:long_common_name(3/4),104046-8,Number of steps to walk 10-meters,Num steps to walk 10m,CLIN,ACTIVE,suggestion_unreviewed
+ASM-021,Timed 10 Meter Walk Test,2,overlap:long_common_name(3/4),104047-6,10-meter walking distance [Time],Time to walk 10-m Time,CLIN,ACTIVE,suggestion_unreviewed
+ASM-021,Timed 10 Meter Walk Test,3,overlap:definition(4/4),89422-0,Timed Up and Go test and physical findings of gait panel CDC,TUG + Phys findings of gait Pnl CDC,PANEL.H&P,ACTIVE,suggestion_unreviewed
+ASM-021,Timed 10 Meter Walk Test,4,overlap:definition(4/4),89423-8,"Time to rise from chair, walk 10 feet and back, and return to sitting [TUG]","Time rise, walk 10ft, return sit [TUG]",H&P.PX,ACTIVE,suggestion_unreviewed
+ASM-021,Timed 10 Meter Walk Test,5,overlap:definition(3/4),66217-1,"Time to rise from chair, walk 8 feet and back, and return to sitting 8UG","Time rise, walk 8ft, return sitting 8UG",H&P.PX,ACTIVE,suggestion_unreviewed
+ASM-022,6 Minute Walk Test,1,overlap:long_common_name(2/2),64098-7,Six minute walk test,Walk distance 6M,CLIN,ACTIVE,suggestion_unreviewed
+ASM-022,6 Minute Walk Test,2,overlap:long_common_name(2/2),67949-8,"How much difficulty do you currently have taking a 20 minute brisk walk, without stopping to rest [NeuroQol]",,SURVEY.NEUROQ,ACTIVE,suggestion_unreviewed
+ASM-022,6 Minute Walk Test,3,overlap:long_common_name(2/2),83143-8,2-Minute Walk Endurance Test [NIH Toolbox],2-min walk test NIH,PANEL.NIH.MOTOR,ACTIVE,suggestion_unreviewed
+ASM-022,6 Minute Walk Test,4,overlap:long_common_name(2/2),83168-5,2-minute Walk Endurance Test - unadjusted scale score [NIH Toolbox],2-min walk unadj score NIH,NIH.MOTOR,ACTIVE,suggestion_unreviewed
+ASM-022,6 Minute Walk Test,5,overlap:long_common_name(2/2),83171-9,2-minute Walk Endurance Test - scale score age adjusted [NIH Toolbox],2 min walk test score age-adj NIH,NIH.MOTOR,ACTIVE,suggestion_unreviewed
+ASM-023,10 Meter Walk Test,1,overlap:long_common_name(3/3),104046-8,Number of steps to walk 10-meters,Num steps to walk 10m,CLIN,ACTIVE,suggestion_unreviewed
+ASM-023,10 Meter Walk Test,2,overlap:long_common_name(3/3),104047-6,10-meter walking distance [Time],Time to walk 10-m Time,CLIN,ACTIVE,suggestion_unreviewed
+ASM-023,10 Meter Walk Test,3,overlap:long_common_name(2/3),70988-1,How short of breath did you get walking 10 steps - paces on flat ground at a normal speed without stopping in the past 7 days [FACIT],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-023,10 Meter Walk Test,4,overlap:long_common_name(2/3),70991-5,"How short of breath did you get walking up 10 stairs, 1 flight, without stopping in the past 7 days [FACIT]",,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-023,10 Meter Walk Test,5,overlap:long_common_name(2/3),77587-4,"During the last 7 days, on how many days did you walk for at least 10 minutes at a time [IPAQ]",,SURVEY.IPAQ,ACTIVE,suggestion_unreviewed
+ASM-030,Barthel Index,1,exact:shortname,96762-0,Barthel index panel,Barthel index,PANEL.CLIN,ACTIVE,suggestion_unreviewed
+ASM-030,Barthel Index,2,contains:shortname,96761-2,Total score Barthel Index,Total score Barthel Index,CLIN,ACTIVE,suggestion_unreviewed
+ASM-031,Functional Independence Measure,1,overlap:definition(2/2),96761-2,Total score Barthel Index,Total score Barthel Index,CLIN,ACTIVE,suggestion_unreviewed
+ASM-032,Katz Index of Independence in ADLs,1,overlap:long_common_name(2/3),45612-9,Resident believes he or she is capable of increased independence in at least some ADLs [Minimum Data Set],,SURVEY.MDS,ACTIVE,suggestion_unreviewed
+ASM-032,Katz Index of Independence in ADLs,2,overlap:long_common_name(2/3),45613-7,Direct care staff believe resident is capable of increased independence in at least some ADLs during assessment period [CMS Assessment],,SURVEY.CMS,ACTIVE,suggestion_unreviewed
+ASM-032,Katz Index of Independence in ADLs,3,overlap:long_common_name(2/3),55123-4,Resident believes he or she is capable of increased independence in at least some ADLs during assessment period [CMS Assessment],,SURVEY.CMS,ACTIVE,suggestion_unreviewed
+ASM-032,Katz Index of Independence in ADLs,4,overlap:definition(2/3),83180-0,Self-care activities - functional ability panel,Selfcare activities,PANEL.CLIN,ACTIVE,suggestion_unreviewed
+ASM-033,Lawton IADL Scale,1,overlap:definition(2/2),83180-0,Self-care activities - functional ability panel,Selfcare activities,PANEL.CLIN,ACTIVE,suggestion_unreviewed
+ASM-040,Visual Analog Scale Pain,1,overlap:long_common_name(3/3),38214-3,Pain severity [Score] Visual analog score,Pain severity Scre VAS,H&P.HX,ACTIVE,suggestion_unreviewed
+ASM-040,Visual Analog Scale Pain,2,overlap:long_common_name(2/3),85456-2,Physical health needs that require further investigation - visual analog rating [ePCAM],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-040,Visual Analog Scale Pain,3,overlap:long_common_name(2/3),85457-0,Physical health impacting mental well-being - visual analog rating [ePCAM],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-040,Visual Analog Scale Pain,4,overlap:long_common_name(2/3),85458-8,Lifestyle behaviors impacting physical or mental well-being - visual analog rating [ePCAM],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-040,Visual Analog Scale Pain,5,overlap:long_common_name(2/3),85459-6,Other mental well-being concerns - visual analog rating [ePCAM],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-041,Numerical Rating Scale Pain,1,overlap:long_common_name(2/3),105487-3,"Patient has a pain rating of 5 on a pain scale of 1 (no pain) to 10 (worst possible pain), pain has improved 1D later, now, what pain rating might the patient have",Pain rating for 1-10,PHENX,ACTIVE,suggestion_unreviewed
+ASM-041,Numerical Rating Scale Pain,2,overlap:long_common_name(2/3),38221-8,Pain severity Wong-Baker FACES pain rating scale,Pain severity Wong-Baker FACES Scale,H&P.HX,ACTIVE,suggestion_unreviewed
+ASM-041,Numerical Rating Scale Pain,3,overlap:long_common_name(2/3),72514-3,Pain severity - 0-10 verbal numeric rating [Score] - Reported,Pain severity 0-10 Scre Reported,H&P.HX,ACTIVE,suggestion_unreviewed
+ASM-041,Numerical Rating Scale Pain,4,overlap:long_common_name(2/3),75893-8,Pain severity in the past week - 0-10 numeric rating [Reported],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-041,Numerical Rating Scale Pain,5,overlap:long_common_name(2/3),90036-5,Pain severity in the past week- 0-10 (0.5 increments) numeric rating [Reported],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-042,McGill Pain Questionnaire,1,overlap:definition(2/2)+not_active,62969-1,"PhenX - pain, abdominal - type and intensity protocol 190901",Pain abd - type intensity proto,PANEL.PHENX,DISCOURAGED,suggestion_unreviewed
+ASM-050,Lysholm Knee Score,1,overlap:long_common_name(2/2),99583-7,Lysholm Knee Scoring Scale [LKSS],,PANEL.SURVEY.LKSS,ACTIVE,suggestion_unreviewed
+ASM-050,Lysholm Knee Score,2,overlap:definition(2/2),99283-4,Tegner Activity Scale panel [Tegner],,PANEL.SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-051,KOOS,1,acronym:KOOS,72091-2,Knee injury and Osteoarthritis Outcome Score [KOOS],,PANEL.SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-051,KOOS,2,acronym:KOOS,72098-7,Quality of life score [KOOS],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-051,KOOS,3,acronym:KOOS,72099-5,Sport-recreation score [KOOS],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-051,KOOS,4,acronym:KOOS,72100-1,Activities of daily living score [KOOS],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-051,KOOS,5,acronym:KOOS,72101-9,Symptoms score [KOOS],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-052,International Knee Documentation Committee,1,overlap:definition(2/4),90255-1,Satisfaction with knee AndOr hip replacement result,Knee/hip replacement satisfaction,CLIN,ACTIVE,suggestion_unreviewed
+ASM-052,International Knee Documentation Committee,2,overlap:definition(2/4),98251-2,Stage [Type] in Endometrial cancer specimen by FIGO,Stage EC spec FIGO,PATH,ACTIVE,suggestion_unreviewed
+ASM-052,International Knee Documentation Committee,3,overlap:definition(2/4)+not_active,99502-7,Recorded sex or gender,Recorded sex/gender,ADMIN.PATIENT.DEMOG,TRIAL,suggestion_unreviewed
+ASM-060,Harris Hip Score,1,acronym:HHS,100283-1,Harris Hip Score panel [Harris Hip Score],,PANEL.SURVEY.ORTHOPEDICS,ACTIVE,suggestion_unreviewed
+ASM-060,Harris Hip Score,2,acronym:HHS,100288-0,Absence of deformity score [Harris Hip Score],,SURVEY.ORTHOPEDICS,ACTIVE,suggestion_unreviewed
+ASM-060,Harris Hip Score,3,acronym:HHS,100290-6,Range of motion score [Harris Hip Score],,SURVEY.ORTHOPEDICS,ACTIVE,suggestion_unreviewed
+ASM-060,Harris Hip Score,4,acronym:HHS,100291-4,Total score [Harris Hip Score],,SURVEY.ORTHOPEDICS,ACTIVE,suggestion_unreviewed
+ASM-060,Harris Hip Score,5,acronym:HHS,69855-5,Race [HHS.ACA Section 4302],,SURVEY.HHS,ACTIVE,suggestion_unreviewed
+ASM-061,HOOS,1,acronym:HOOS,72092-0,Hip Dysfunction and Osteoarthritis Outcome Score [HOOS],,PANEL.SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-061,HOOS,2,acronym:HOOS,72093-8,Quality of life score [HOOS],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-061,HOOS,3,acronym:HOOS,72094-6,Sport-recreation score [HOOS],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-061,HOOS,4,acronym:HOOS,72095-3,Activities of daily living score [HOOS],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-061,HOOS,5,acronym:HOOS,72096-1,Symptoms score [HOOS],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-071,American Shoulder and Elbow Surgeons Score,1,overlap:definition(2/4),102043-7,Surgical oncology of lung cancer synoptic report,Surg onc lung CA synoptic rpt,SURG,ACTIVE,suggestion_unreviewed
+ASM-071,American Shoulder and Elbow Surgeons Score,2,overlap:definition(2/4),102044-5,Surgical oncology of stomach cancer synoptic report,Surg onc stomach CA synoptic rep,SURG,ACTIVE,suggestion_unreviewed
+ASM-071,American Shoulder and Elbow Surgeons Score,3,overlap:definition(2/4),102045-2,Synoptic report for adrenal gland cancer surgery,Surg onc adrenal gland CA synoptic rept,SURG,ACTIVE,suggestion_unreviewed
+ASM-071,American Shoulder and Elbow Surgeons Score,4,overlap:definition(2/4),102046-0,Surgical oncology of sarcoma cancer synoptic report,Surg onc sarc CA synoptic rep,SURG,ACTIVE,suggestion_unreviewed
+ASM-071,American Shoulder and Elbow Surgeons Score,5,overlap:definition(2/4),102047-8,Surgical oncology of rectum cancer synoptic report,Surg onc rectum CA synoptic rep,SURG,ACTIVE,suggestion_unreviewed
+ASM-080,Modified Ashworth Scale,1,exact:component,115586-0,Modified ashworth scale [Reported.MAS],,PANEL.SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-080,Modified Ashworth Scale,2,acronym:MAS,100425-8,DiHydro T-Mas [Mass/volume] in Serum or Plasma,SerPl-mCnc,CHEM,ACTIVE,suggestion_unreviewed
+ASM-080,Modified Ashworth Scale,3,acronym:MAS,115508-4,Total score [Reported.MAS],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-081,Modified Rankin Scale,1,exact:long_common_name,75859-9,Modified rankin scale,mRS,CLIN,ACTIVE,suggestion_unreviewed
+ASM-081,Modified Rankin Scale,2,acronym:MRS,37442-1,MR spectroscopy Brain,MRS Brain,RAD,ACTIVE,suggestion_unreviewed
+ASM-081,Modified Rankin Scale,3,acronym:MRS,37443-9,MR spectroscopy Unspecified body region,MRS Unsp region,RAD,ACTIVE,suggestion_unreviewed
+ASM-082,Glasgow Coma Scale,1,exact:long_common_name,35088-4,Glasgow coma scale,Glasgow coma scale,PANEL.FUNCTION,ACTIVE,suggestion_unreviewed
+ASM-082,Glasgow Coma Scale,2,acronym:GCS,11324-1,Glasgow coma score eye opening at First encounter,GCS eye 1st enctr,FUNCTION,ACTIVE,suggestion_unreviewed
+ASM-082,Glasgow Coma Scale,3,acronym:GCS,11325-8,Glasgow coma score motor at First encounter,GCS motor 1st enctr,FUNCTION,ACTIVE,suggestion_unreviewed
+ASM-082,Glasgow Coma Scale,4,acronym:GCS,11326-6,Glasgow coma score verbal at First encounter,GCS verbal 1st enctr,FUNCTION,ACTIVE,suggestion_unreviewed
+ASM-082,Glasgow Coma Scale,5,acronym:GCS,55285-1,Glasgow coma score special circumstances,GCS special circumstances,FUNCTION,ACTIVE,suggestion_unreviewed
+ASM-091,Alberta Infant Motor Scale,1,acronym:AIMS,111770-4,Total score [AIMS],,SURVEY.NEURO,ACTIVE,suggestion_unreviewed
+ASM-091,Alberta Infant Motor Scale,2,acronym:AIMS,111774-6,Abnormal movement score [AIMS],,SURVEY.NEURO,ACTIVE,suggestion_unreviewed
+ASM-091,Alberta Infant Motor Scale,3,acronym:AIMS,111794-4,Abnormal Involuntary Movement Scale Original 14-Item Version [AIMS],,PANEL.SURVEY.NEURO,ACTIVE,suggestion_unreviewed
+ASM-091,Alberta Infant Motor Scale,4,acronym:AIMS,66777-4,It is easy for me to stick to my aims and accomplish my goals [GSE],Easy to accomplish my goals GSE,PHENX,ACTIVE,suggestion_unreviewed
+ASM-091,Alberta Infant Motor Scale,5,overlap:long_common_name(2/3),60687-1,Test of Infant Motor Performance Version 5.1,,PANEL.TIMP,ACTIVE,suggestion_unreviewed
+ASM-100,Forced Vital Capacity,1,exact:component,19868-9,Forced vital capacity [Volume] Respiratory system by Spirometry,FVC Vol Respiratory Spirometry,PULM,ACTIVE,suggestion_unreviewed
+ASM-100,Forced Vital Capacity,2,exact:component,19869-7,Forced vital capacity [Volume] Respiratory system Predicted,FVC Vol Respiratory Predicted,PULM,ACTIVE,suggestion_unreviewed
+ASM-100,Forced Vital Capacity,3,exact:component,19870-5,Forced vital capacity [Volume] Respiratory system,FVC Vol Respiratory,PULM,ACTIVE,suggestion_unreviewed
+ASM-100,Forced Vital Capacity,4,acronym:FVC,19871-3,FVC pre bronchodilation measured/predicted,FVC pre BD meas/pred,PULM,ACTIVE,suggestion_unreviewed
+ASM-100,Forced Vital Capacity,5,acronym:FVC,19872-1,FVC measured/predicted,FVC meas/pred,PULM,ACTIVE,suggestion_unreviewed
+ASM-101,6 Minute Walk Distance,1,overlap:long_common_name(2/3),104047-6,10-meter walking distance [Time],Time to walk 10-m Time,CLIN,ACTIVE,suggestion_unreviewed
+ASM-101,6 Minute Walk Distance,2,overlap:long_common_name(2/3),112427-0,Distance walking or running,Distance walking or running,CLIN,ACTIVE,suggestion_unreviewed
+ASM-101,6 Minute Walk Distance,3,overlap:long_common_name(2/3),41953-1,Walking distance 24 hour Calculated,Walk distance 24h Calc,CLIN,ACTIVE,suggestion_unreviewed
+ASM-101,6 Minute Walk Distance,4,overlap:long_common_name(2/3),41954-9,Walking distance 24 hour mean Calculated,Walk distance 24h Mean Calc,CLIN,ACTIVE,suggestion_unreviewed
+ASM-101,6 Minute Walk Distance,5,overlap:shortname(2/3),41955-6,Distance walked in 1 week Calculated,Walk distance 1W Calc,CLIN,ACTIVE,suggestion_unreviewed
+ASM-110,National Institutes of Health Stroke Scale,1,acronym:NIHSS,70182-1,NIH Stroke Scale,,PANEL.SURVEY.NEURO,ACTIVE,suggestion_unreviewed
+ASM-110,National Institutes of Health Stroke Scale,2,acronym:NIHSS,70183-9,NIH stroke scale interval [NIH Stroke Scale],,SURVEY.NEURO,ACTIVE,suggestion_unreviewed
+ASM-110,National Institutes of Health Stroke Scale,3,overlap:relatednames2(2/3),67520-7,Stroke scale overall interpretation NEMSIS,Stroke scale interpretation NEMSIS,NEMSIS,ACTIVE,suggestion_unreviewed
+ASM-110,National Institutes of Health Stroke Scale,4,overlap:definition(2/3),62939-4,PhenX - crime and delinquency - adolescent protocol 181201,Crime delinquency adolescent proto,PANEL.PHENX,ACTIVE,suggestion_unreviewed
+ASM-110,National Institutes of Health Stroke Scale,5,overlap:definition(2/3),62940-2,PhenX - crime and delinquency - adult protocol 181202,Crime delinquency adult proto,PANEL.PHENX,ACTIVE,suggestion_unreviewed
+ASM-111,Stroke Impact Scale,1,acronym:SIS,105243-0,"Family members in category group: step, foster, adoptive. Sister(s)","Fam step,fos,adopt, sis",PHENX,ACTIVE,suggestion_unreviewed
+ASM-111,Stroke Impact Scale,2,acronym:SIS,98111-8,Chemokine (C-C motif) ligand 4 [Mass/volume] in Serum or Plasma,CCL4 SerPl-mCnc,CHEM,ACTIVE,suggestion_unreviewed
+ASM-111,Stroke Impact Scale,3,acronym:SIS,98113-4,Chemokine (C-C motif) ligand 5 [Mass/volume] in Serum or Plasma,CCL5 SerPl-mCnc,CHEM,ACTIVE,suggestion_unreviewed
+ASM-121,Functional Reach Test,1,overlap:relatednames2(2/2),71029-3,I am able to reach down deep into myself for comfort in the past 7 days [FACIT],,SURVEY.GNHLTH,ACTIVE,suggestion_unreviewed
+ASM-121,Functional Reach Test,2,overlap:definition(2/2),97010-3,Clot formation [Time] in Blood by Thromboelastography.kaolin.tissue factor induced,CFT Bld TEG Kaolin TF,COAG,ACTIVE,suggestion_unreviewed
+ASM-122,Activities-specific Balance Confidence Scale,1,overlap:definition(2/4),100952-1,Product confidence panel [R-Outcomes],,PANEL.SURVEY.R-OUTCOMES,ACTIVE,suggestion_unreviewed
+ASM-122,Activities-specific Balance Confidence Scale,2,overlap:definition(2/4),104601-0,No harm related to unintentional sterile field/wound contamination,,SURVEY.PNDS,ACTIVE,suggestion_unreviewed
+ASM-122,Activities-specific Balance Confidence Scale,3,overlap:definition(2/4),106443-5,Pediatric cancer survivorship summary Document,Pediatric cancer survivorship sum Doc,DOC.MISC,ACTIVE,suggestion_unreviewed
+ASM-122,Activities-specific Balance Confidence Scale,4,overlap:definition(2/4),106729-7,Tissue perfusion and oxygenation,Tiss perfs+oxy,PULM,ACTIVE,suggestion_unreviewed
+ASM-122,Activities-specific Balance Confidence Scale,5,overlap:definition(2/4),106730-5,Free from harm related to unintentional contamination of the sterile field and wound,,SURVEY.PNDS,ACTIVE,suggestion_unreviewed

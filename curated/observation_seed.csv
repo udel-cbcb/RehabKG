@@ -1,0 +1,7 @@
+observation_id,patient_id,feature,value,unit,observed_at,device,icf_code
+SYNTHETIC-OBS-001,SYNTHETIC-GAIT-001,gait_speed_m_s,0.82,m/s,2026-01-05,synthetic_instrument,d450
+SYNTHETIC-OBS-002,SYNTHETIC-GAIT-001,gait_speed_m_s,1.05,m/s,2026-02-05,synthetic_instrument,d450
+SYNTHETIC-OBS-003,SYNTHETIC-GAIT-001,six_minute_walk_distance_m,240,m,2026-01-05,synthetic_instrument,d455
+SYNTHETIC-OBS-004,SYNTHETIC-GAIT-001,six_minute_walk_distance_m,310,m,2026-02-05,synthetic_instrument,d455
+SYNTHETIC-OBS-005,SYNTHETIC-GAIT-001,step_count,3200,count/day,2026-01-20,synthetic_instrument,d450
+SYNTHETIC-OBS-006,SYNTHETIC-GAIT-001,berg_balance_score,28,score/56,2026-01-05,synthetic_instrument,d455

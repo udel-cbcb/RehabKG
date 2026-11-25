@@ -1,0 +1,41 @@
+{
+ "captured": "2026-10-22T21:50:13",
+ "when": "BEFORE Phase-2 reimport",
+ "outcomes": {
+  "c": 2012
+ },
+ "outcomes_value_numeric": {
+  "c": 1451
+ },
+ "measured_by": {
+  "c": 2012
+ },
+ "outcomes_by_scale": {
+  "name": "Barthel Index",
+  "n": 2012
+ },
+ "scales_with_scale_id": {
+  "c": 0
+ },
+ "nihss_concepts": {
+  "c": 0
+ },
+ "asm110_instance_of": {
+  "c": 40
+ },
+ "condition_icd10": {
+  "c": 65
+ },
+ "recommends": {
+  "c": 267
+ },
+ "exercises_recommended": {
+  "c": 34
+ },
+ "safety": {
+  "c": 228
+ },
+ "poem_instance_of": {
+  "c": 40
+ }
+}

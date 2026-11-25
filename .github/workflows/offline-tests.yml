@@ -1,0 +1,50 @@
+# Offline test gate: runs on every push/PR. No Neo4j, no browser.
+#
+# Ontology extractor tests (tests/test_ontology_extract.py) need the source
+# OWL files in data/ontologies/ (gitignored). Without them those tests
+# self-skip; add the BIOPORTAL_API_KEY repository secret to make them run.
+
+name: offline-tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  offline-tests:
+    # Pin 24.04: Python 3.9 toolcache builds don't exist for ubuntu-26.04
+    # (ubuntu-latest since 2026-10-19), and 3.9 is this project's floor.
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        # 3.9 = project floor (matches local dev), 3.12 = current stable.
+        python-version: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest ruff
+
+      - name: "Lint (ruff: syntax errors + pyflakes rules)"
+        run: ruff check --select E9,F .
+
+      - name: Download ontology sources (optional)
+        env:
+          BIOPORTAL_API_KEY: ${{ secrets.BIOPORTAL_API_KEY }}
+        run: |
+          if [ -n "$BIOPORTAL_API_KEY" ]; then
+            python download_data.py || echo "::warning::download_data.py failed; extractor tests will skip missing files"
+          else
+            echo "BIOPORTAL_API_KEY secret not set; ontology extractor tests will self-skip"
+          fi
+
+      - name: Run offline test suite
+        run: |
+          python -m pytest tests/ -q --ignore=tests/test_e2e.py --ignore=tests/test_graph.py

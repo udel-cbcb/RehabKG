@@ -1,0 +1,39 @@
+Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownPropertyKeyWarning} {category: UNRECOGNIZED} {title: The provided property key is not in the database} {description: One of the property names in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing property name is: measure_name)} {position: line: 3, column: 26, offset: 60} for query: '\n                MATCH (o:Outcome)\n                RETURN o.measure_name AS scale, count(o) AS n\n                ORDER BY n DESC LIMIT 15\n            '
+## Condition coverage
+  Conditions: 1,320
+  with ICD-10 link:     65 (4.9%)
+  with recommendations: 214
+  with precaution:      42
+  with contraindication:18
+
+## Outcome scale coverage
+  Outcomes: 2,012 (value_numeric backfill: 1,451)
+  admission: 1,006 / discharge: 1,006
+    None: 2,012
+
+## Exercise coverage
+  Exercises: 949
+  recommended at least once: 34
+
+## MOTU cohort limits (synthetic demo data)
+  Patients: 1,006
+  Birth years: 1921–1999
+    sex=M: 874
+    sex=F: 132
+
+## Provenance coverage
+  RECOMMENDS with source/review_status: 267/267 of 267
+  Safety with source/review_status: 228/228 of 228
+
+## Observations
+  Observation nodes: 6
+
+## Known gaps
+  - Condition.icd10_code is populated only by exact-name Mondo
+    propagation and curated/condition_icd10_overrides.csv (Gate 0
+    policy); both are unreviewed candidates — see
+    docs/notes/phase0_findings.md and curated/README.md.
+  - MOTU data is synthetic/labeled demo data — not for clinical use.
+  - Unreviewed curated edges are research candidates, not advice.
+
+JSON written to eval/audit_report_phase1.json

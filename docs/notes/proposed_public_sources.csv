@@ -1,0 +1,37 @@
+source,live_node_count,proposed_status,conditions
+REHABO,310,include,Staged rehabo.owl declares CC0; preserve attribution and release metadata; verify loaded revision
+EXMO,220,include,Staged exmo.owl/exmo_new.owl declare CC BY 4.0; confirm loaded revision and imported content
+COPPER,362,exclude_pending_review,No license annotation found in staged copper.owl; omitted from focused ontology refresh; request explicit terms from maintainers
+Mondo,5000,include,Staged mondo.owl declares CC BY 4.0; preserve attribution and verify loaded version
+Uberon,10000,conditional,Included in focused refresh at user direction; staged uberon.owl includes both CC BY 3.0 and CC BY 4.0 annotations; distinguish ontology-level/imported terms and preserve applicable attribution
+PAIN,623,include,Staged pain.owl declares CC BY 4.0; preserve attribution/version and review imports
+KHMO,1753,exclude_pending_review,Staged khmo.owl declares CC BY 4.0 at ontology level but includes imported-term license annotations; omitted from focused refresh pending provenance review
+Free Exercise DB,902,include,Upstream README says Unlicense; preserve source attribution; omit images unless separately cleared
+ClinicalTrials.gov,2176,conditional,Public records; host factual fields and citations; review contributed text/API terms
+ClinicalTrials.gov (expanded),531,conditional,Public records; host factual fields and citations; review contributed text/API terms
+MOTU,6183,conditional,Verify exact CC BY 4.0 package and de-identification documentation; attribute; keep source labeling
+synthetic_demo,7,include,Project-created demo values; keep separate from MOTU
+CDC ICD-10-CM April 2025,92694,conditional,Public domain in US; verify jurisdiction and release notes for global service
+Human Phenotype Ontology,32772,conditional,Staged hp.owl points to https://hpo.jax.org/app/license; verify imported third-party vocabularies and notices in packaged release
+ICF,1509,exclude_pending_review,WHO ICF snapshot terms need confirmation for this exact BioPortal OWL format; no adaptation assumed
+Open Rehab Exercises,76,exclude_pending_review,Verify exact archive/release and media terms; license claim in repo is not verified against staged package
+RMD,40,exclude_pending_review,Verify database terms for hosted redistribution of scale descriptions/metadata
+PMR,1597,exclude_pending_review,Exact release licence not verified
+MELLO-D,7399,exclude_pending_review,Exact release licence not verified
+OPE,633,exclude_pending_review,Exact release licence not verified
+PHY,5,exclude_pending_review,Exact release licence not verified
+ONTOLOCO,280,exclude_pending_review,Exact release licence not verified
+TRAK,1619,exclude_pending_review,Verify BioPortal submission licence and third-party imports
+FRMO,890,exclude_pending_review,Staged frmo.owl declares CC0 1.0; confirm loaded submission and imported content
+BCIO,2523,exclude_pending_review,Verify BioPortal submission licence and imported content
+BCTT,109,exclude_pending_review,Verify BioPortal submission licence
+STO,1711,exclude_pending_review,Staged sto.owl explicitly declares CC BY 4.0; confirm loaded revision and imported content
+PACO,224,exclude_pending_review,Staged paco.owl says CC BY 3.0; confirm exact submission and attribution details
+MSO,1170,exclude_pending_review,Verify BioPortal submission licence/imports
+POEM,56,exclude_pending_review,Verify BioPortal submission licence and third-party terms
+PHENX,533,exclude_pending_review,Verify submission licence and toolkit terms
+NIHSS,18,exclude_pending_review,Staged nihss.owl explicitly declares CC BY-NC 4.0; exclude from commercial hosting and confirm loaded revision
+acvd.owl,1719,exclude,Licence/version unverified; keep private until cleared
+LOINC-derived AssessmentScale fields,40,conditional,Only with required online LOINC notice and code/display-name fields; no raw package export
+ICD-10/LOINC scale ancillary nodes,92694,conditional,Handle through source-specific rows above and LOINC notice requirements
+Keraal local archive,0,exclude_not_loaded,Not in live graph; licence not reviewed

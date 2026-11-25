@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use RehabKG in your research, please cite it as below."
+title: "RehabKG: A Rehabilitation Knowledge Graph Integrating Functioning Ontologies, Clinical Datasets, and Therapeutic Exercises"
+type: software
+authors:
+  - family-names: "Center for Bioinformatics and Computational Biology"
+    given-names: "University of Delaware"
+    alias: "udel-cbcb"
+repository-code: "https://github.com/udel-cbcb/RehabKG"
+license: MIT
+abstract: >-
+  RehabKG is a Neo4j knowledge graph that integrates rehabilitation and
+  ontologies (ICF, HPO, Uberon, Mondo, EXMO, COPPER, KHMO, PAIN, CBHA,
+  REHABO, and other retained sources) with therapeutic exercise catalogs,
+  clinical-trial records,
+  and rehabilitation outcome data. Every graph edge carries a
+  provenance contract (method, match_type, confidence, source,
+  review_status), and curated clinical edges flow through a
+  clinician-in-the-loop review workflow. The graph supports Cypher
+  querying, a Streamlit dashboard, a read-only FastAPI service, and
+  evaluation tooling for rehabilitation knowledge-discovery research.
+keywords:
+  - knowledge graph
+  - rehabilitation
+  - ontology
+  - ICF
+  - clinical trials
+  - provenance
+  - human-in-the-loop
+notes: >-
+  Source datasets and ontologies have their own licenses; see
+  docs/DATA_SOURCES.md. MOTU patient data in the demo graph is
+  synthetic/de-identified and must not be used for clinical care.

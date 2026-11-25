@@ -1,0 +1,68 @@
+{
+ "captured": "2026-10-22T21:52:49",
+ "when": "AFTER Phase-2 reimport",
+ "outcomes": {
+  "c": 4024
+ },
+ "outcomes_value_numeric": {
+  "c": 2395
+ },
+ "measured_by": {
+  "c": 4024
+ },
+ "outcomes_by_scale": [
+  {
+   "name": "10 Meter Walk Test",
+   "n": 2012
+  },
+  {
+   "name": "Barthel Index",
+   "n": 2012
+  }
+ ],
+ "scales_with_scale_id": {
+  "c": 40
+ },
+ "scale_id_constraint": "ERROR: {code: Neo.ClientError.Statement.SyntaxError} {message: Trying to YIELD non-existing column: `uniqueness` (line 1, column 42 (offset: 41))\n\"SHOW CONSTRAINTS YIELD name, properties, uniqueness RETURN name, properties, uniqueness\"\n                                          ^}",
+ "nihss_concepts": {
+  "c": 18
+ },
+ "nihss_subclass": {
+  "c": 15
+ },
+ "nihss_bridge": {
+  "c": 1,
+  "source": null
+ },
+ "instance_of_total": {
+  "c": 41
+ },
+ "condition_icd10": {
+  "c": 65
+ },
+ "icd10_by_source": [
+  {
+   "src": "mondo_exact_name",
+   "n": 55
+  },
+  {
+   "src": "curated_override",
+   "n": 10
+  }
+ ],
+ "recommends": {
+  "c": 267
+ },
+ "recommends_provenance": {
+  "c": 267
+ },
+ "exercises_recommended": {
+  "c": 34
+ },
+ "safety": {
+  "c": 228
+ },
+ "measured_by_no_provenance": {
+  "c": 4024
+ }
+}
